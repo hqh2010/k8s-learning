@@ -267,3 +267,5 @@ sudo kubectl get nodes
 
     * [云原生Java架构师的第一课K8s+Docker+KubeSphere+DevOps
 ](https://www.bilibili.com/video/BV13Q4y1C7hS?p=31&vd_source=2878cbece52fc3431df4c7c4b77a8884)
+
+https://kubernetes.io/zh-cn/docs/concepts/overview/components/
