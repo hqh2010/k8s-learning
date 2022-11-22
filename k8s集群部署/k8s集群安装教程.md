@@ -278,11 +278,27 @@ kubectl describe pods/mynginx
 kubectl describe -f pod.json
 ```
 
-描述所有的pod
+描述所有的pod，查询pod的详细信息
 
 ```bash
 kubectl describe pods
 ```
+
+查看pods所在的运行节点
+
+```bash
+kubectl get pods -o wide
+```
+
+如果需要通过某个命名空间查找节点信息， 可以通过以下命令查看：
+
+```bash
+kubectl get pods -o wide -n kube-system
+```
+
+-o wide 选项表示展示更多的Pod节点信息
+
+-n <命名空间> 表示查询该命名空间下的Pod节点信息
 
 15. 参考资料
 
