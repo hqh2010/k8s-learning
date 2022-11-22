@@ -262,6 +262,23 @@ sudo kubectl get pods -A
 ```bash
 sudo kubectl get nodes
 ```
+描述一个pod
+
+```bash
+kubectl describe pods/nginx
+```
+
+描述pod.json中的资源类型和名称指定的pod
+
+```bash
+kubectl describe -f pod.json
+```
+
+描述所有的pod
+
+```bash
+kubectl describe pods
+```
 
 15. 参考资料
 
